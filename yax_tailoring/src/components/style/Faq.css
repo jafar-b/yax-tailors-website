@@ -1,0 +1,21 @@
+.faq-img-container {
+    width: 25rem;
+    display: flex;
+
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+
+.faq-title{
+    letter-spacing: 2px;
+
+}
+.faq-img {
+    width: 20rem !important;
+    height: fit-content;
+    margin: 0.5rem;
+
+    align-self: center;
+}

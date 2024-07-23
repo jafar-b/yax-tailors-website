@@ -1,0 +1,23 @@
+.title {
+  font-weight: 600;
+  font-size: 1.7rem;
+
+  background-image: linear-gradient(to top, rgb(227, 191, 179), rgb(204, 201, 223)) !important;
+}
+
+.edit-action-btn .btn {
+  background-color: rgb(227, 191, 179) !important;
+  margin: 0px 1rem;
+  padding: 1rem 2rem;
+  color: rgb(17, 8, 8);
+  border-radius: 10px;
+  border: none;
+
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.edit-action-btn .btn:hover {
+  background-color: rgb(74, 54, 45) !important;
+  color: white;
+}

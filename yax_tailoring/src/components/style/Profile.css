@@ -1,0 +1,33 @@
+.profile-container {
+    margin: 1.5rem !important;
+    position: relative;
+    top: 2rem;
+    height: 18rem;
+}
+
+#pedithead {
+    font-weight: 600;
+}
+
+.profile-col {
+    width: 100%;
+    margin: 0.2rem !important;
+}
+
+.profile-element {
+    border-radius: 10px !important;
+    width: 100%;
+    margin: 0.2rem;
+    background-color: rgb(227, 191, 179) !important;
+    color: rgba(28, 25, 30, 0.8);
+    font-weight: 600;
+}
+
+
+.profile-element:hover {
+    /* background-color:bisque !important; */
+    background-color: rgb(129, 88, 68) !important;
+    transition: 0.35s;
+    border-radius: 10px !important;
+    color:white
+}

@@ -1,0 +1,18 @@
+Response Example:
+
+{
+  "Customization": {
+    "fabrictype": "denim",
+    "size": "M",
+    "title": "Jeans",
+    "subtitle": "Customise Denim Jeans"
+  },
+  "_id": "63150db42b95e2bf18c5853c",
+  "productId": "62f0f134dea4392e4946e85c",
+  "orderedOn": "9/5/2022, 2:12:28 AM",
+  "OrderPrice": "2999",
+  "userID": "63065e0952d24ced357fa2f4",
+  "description": "",
+  "location": "Near Crazy Apartment, Mamta Nagar, Alibag 402201",
+  "__v": 0
+}

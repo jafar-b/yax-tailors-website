@@ -1,0 +1,172 @@
+.product-content-img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+.product-content-img img {
+    width: 100% !important;
+    height: 100%;
+}
+
+.product-container {
+    text-align: left !important;
+}
+
+
+
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+.product-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+
+
+.product-container .svg-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.product-cart-button-actions {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Title */
+.product-title-container .product-title {
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+
+}
+
+.product-title-container .product-subtitle {
+    font-size: 25px;
+
+    font-weight: 400;
+    color: #535353;
+    margin-bottom: 5px;
+
+}
+
+/* Rating */
+
+.product-rating-container .product-rating-inner-container {
+    width: fit-content;
+    border: 1px solid #bbbbbba9;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.product-rating-container .product-rating-inner-container:hover {
+    border: 1px solid #6a6a6a;
+
+}
+
+.product-rating-container .rating-count {
+    margin-right: 0.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.product-rating-container img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.vertical-line.divider {
+    width: 1px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #8181816e;
+}
+
+/* hhorizontal-divider */
+.horizontal-divider {
+    display: block;
+    height: 1px;
+    margin-right: 5px;
+    background-color: #8181816e;
+    margin-bottom: 1rem;
+}
+
+
+
+/* product price */
+.product-price-container {
+    cursor: pointer;
+
+}
+
+.product-price-container .product-price {
+    margin-right: 1rem;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.product-price-container .product-mrp {
+    font-weight: 400;
+    font-size: 23px;
+    color: #818181;
+}
+
+.product-price-container .note {
+    color: rgb(77, 77, 225);
+}
+
+/* Buy button */
+.buy-now {
+    background-color: rgb(236, 73, 73);
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: none;
+    transition: all 0.2s ease-in;
+    margin-left: 1rem !important;
+}
+
+.buy-now:hover {
+    border: none;
+    background-color: #ffcaa6;
+    color: rgb(223, 219, 219);
+}
+
+/* add to cart button */
+.product-card-button {
+    background-color: transparent;
+}
+
+/* Description and features */
+.description-title {
+    padding: 0.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.product-description .description {
+    margin-left: 0.7rem;
+    cursor: pointer;
+}
+
+#features {
+    margin-left: 1.5rem;
+    list-style-type: disc;
+
+}

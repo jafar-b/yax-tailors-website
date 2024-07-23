@@ -1,0 +1,88 @@
+.footer {
+    background-color: #f3f6fd;
+    font-size: 11.5px;
+    font-weight: bold;
+    color: rgb(189, 196, 203);
+    position: relative;
+    /* clear: both; */
+
+}
+
+.logo {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.card {
+    /* padding: 2% 7%; */
+    color: #646771;
+    background-color: #16151a;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul>li {
+    padding: 4px;
+}
+
+ul>li:hover {
+    color: var(--bs-link-hover-color);
+    cursor: pointer;
+}
+
+hr {
+    border-width: 3px;
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px;
+}
+
+.social>i:hover {
+    color: rgb(28, 70, 113);
+    cursor: pointer;
+}
+
+.policy>div {
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.heading {
+    /* font-family: 'Titillium Web', sans-serif; */
+    color: rgb(35, 35, 35);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+
+.divider {
+    border-top: 2px solid rgba(189, 196, 203, 0.5);
+    ;
+}
+
+/* .mapouter {
+    position: relative;
+    text-align: right;
+    height: 150px;
+    width: 100%;
+    margin-bottom:20px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 100%;
+} */

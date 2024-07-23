@@ -1,0 +1,34 @@
+.Offer {
+    padding: 1rem;
+    background-image: linear-gradient(150deg, #f2f6d6 40%, #ff7d5c);
+    margin: 0.5rem;
+    border-radius: 8px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.Offer div {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.Offer p {
+
+    padding: 0px;
+
+    margin: 0.1rem;
+    text-align: center;
+    color: #ac6412;
+
+}
+
+.Offer button {
+    background-color: #125fac;
+    outline: none;
+    margin: 5px;
+    border: none;
+    padding: 0.25rem 1rem;
+    border-radius: 8px;
+    color: white
+}

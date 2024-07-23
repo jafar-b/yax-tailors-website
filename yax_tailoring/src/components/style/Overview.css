@@ -1,0 +1,52 @@
+.overview {
+    /* background-image: url("../resources/feature-image.jpg"); */
+    /* background: linear-gradient(70deg, rgb(234, 219, 212) 40%, rgb(194, 199, 255)); */
+    background-image: url("https://img.freepik.com/free-vector/black-denim-cloth-texture-with-pockets_107791-11095.jpg?w=1380&t=st=1659845681~exp=1659846281~hmac=3ff2f4f4896f097cec4e32bbfc55b2970e0664edf72d4b69e8c08707c2334d0d");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(200, 213, 237);
+
+
+}
+
+
+.overview .content {
+
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+
+
+}
+
+.overview .content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.overview .content p {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    color: rgb(252, 252, 252);
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+
+.overview button {
+    border: none;
+    outline: none;
+    padding: 0.25rem 1rem;
+    border-radius: 8px;
+    font-size: 25px;
+    background-color: whitesmoke;
+}

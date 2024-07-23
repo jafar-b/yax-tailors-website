@@ -1,0 +1,220 @@
+/* responsive navbar */
+
+
+@media screen and (max-width:1180px) {
+    .navbar {
+        background-color: #fff;
+        margin: 0%;
+        display: flex;
+        border-radius: 10px;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        height: 4rem;
+        padding: 0px;
+        z-index: 2;
+        align-items: center;
+        align-self: center;
+    }
+
+    .nav-items {
+        position: relative;
+        flex-direction: column;
+        left: -110%;
+        width: 100%;
+        top: 1rem;
+        margin-top: 1rem;
+        padding: 0.25rem;
+        border-radius: 8px;
+        background-color: #ffffff;
+        transition: all 0.5s ease-in-out;
+        opacity: 2;
+    }
+
+    .nav-items.active {
+        position: relative;
+        left: 0%;
+    }
+
+
+    .hamburger {
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+        display: block !important;
+    }
+
+    .hamburger.close {
+        transform: rotate(180deg);
+    }
+
+    .hamburger.close .bar:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.close .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.close .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .nav-items a {
+        width: 100%;
+        height: 3rem;
+        text-decoration: none;
+        color: rgb(37, 37, 37);
+        font-weight: 400;
+        border-radius: 8px;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        transition: all 0.01s ease-in-out;
+        margin: 00.25rem;
+        padding: 1rem;
+        /* background-color: #eeeaff; */
+        outline: 1px solid navajowhite;
+    }
+
+
+
+}
+
+
+
+.header {
+    border-bottom: 1px solid #e2e8f0;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem .5rem;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+    flex: 1;
+
+}
+
+
+.logo-container {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* position: absolute;
+    top: 1.5rem;
+    left: 3.5rem; */
+
+}
+
+
+.logo-container a {
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: bold;
+    color: #e53212;
+
+}
+
+.logo-container a::hover {
+    background-color: #9e9ea7;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.nav-item {
+    cursor: pointer;
+    list-style: none;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.nav-items a {
+    width: 100%;
+    height: 3rem;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-weight: 400;
+    border-radius: 8px;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+    transition: all 0.01s ease-in-out;
+    margin: 00.25rem;
+    padding: 0rem 1rem 0rem 1rem;
+    /* background-color: #eeeaff; */
+    outline: 1px solid navajowhite;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.nav-items a:active{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+
+.nav-items.active a:hover {
+    color: white;
+    background-color: cornflowerblue;
+
+}
+
+/* hide mobile nav hamburger in desktop view */
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+
+@media screen and (max-width:350px) {
+    .navbar {
+
+        background-color: #fff;
+        border-radius: 10px;
+        transition: 0.3s;
+        display: block !important;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+        height: 5.5rem;
+
+        margin: 0 auto;
+
+    }
+
+
+    .nav-items {
+        position: relative;
+        flex-direction: column;
+        left: -115%;
+        width: 100%;
+        top: 1rem;
+        margin-top: 0.25rem;
+        padding: 0;
+        /* background-color: #31302f; */
+        transition: all 0.5s ease-out;
+    }
+
+
+}

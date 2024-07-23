@@ -1,0 +1,18 @@
+.how-its-works {
+    width: 100%;
+ 
+}
+
+.how-its-works .steps {
+
+    text-align: left !important;
+    margin: 0.5rem !important;
+    padding: 0.5rem;
+    background-color: rgba(91, 149, 200, 0.214);
+    border-radius: 10px;
+
+}
+
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
